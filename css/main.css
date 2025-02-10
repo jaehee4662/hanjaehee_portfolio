@@ -129,6 +129,16 @@ section h3::before {
 }
 
 /* web_design */
+#web_design .inner h3 {
+    margin: 0;
+    line-height: 1.2;
+}
+.web_design .inner .sub_title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
 .web_design .inner ul {
     display: flex;
     gap: 30px;
