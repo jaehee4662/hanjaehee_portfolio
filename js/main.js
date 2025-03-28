@@ -10,4 +10,35 @@ $("#fullpage").fullpage({
 
 AOS.init({
      duration: 1500,
+<<<<<<< HEAD
+=======
+});
+
+const gr = new Swiper('.gr', {
+     autoplay: {
+          delay:3000,
+          disableOnInteraction: false,
+     },
+     speed: 2000,
+
+     scrollbar: {
+          el: ".swiper-scrollbar",
+          hide: false,
+     },
+
+     loop: true,
+     slidesPerView: 1,
+     spaceBetween: 30,
+
+     breakpoints: {
+          768: { 
+               slidesPerView: 2,
+               spaceBetween: 30,
+          },
+          1200: { 
+               slidesPerView: 3,
+               spaceBetween: 30,
+          },
+     }
+>>>>>>> bf66c2402ae163968092a1f630cb9165cf9cdc86
 });
