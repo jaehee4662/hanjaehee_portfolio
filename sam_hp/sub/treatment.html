@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>진료안내</title>
+     <!-- favicon -->
+     <link rel="shortcut icon" href="../images/common/favicon.png" type="image/x-icon">
+
+     <!-- font -->
+     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+
+     <!-- css - reset -->
+     <link rel="stylesheet" href="../css/reset.css">
+     <!-- css - swiper -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css">
+     <!-- css main -->
+     <link rel="stylesheet" href="../css/sub.css">
+
+     <!-- js - jquery -->
+     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+     <!-- js - swiper -->
+     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+     <!-- js - main -->
+     <script defer src="../js/main.js"></script>
+     <!-- js common -->
+     <script defer src="../js/common.js"></script>
+</head>
+<body>
+     <div id="wrap">
+          <header id="header">
+               <div class="inner">
+                    <h1><a href="../index.html"><img src="../images/common/logo.png" alt="삼성서울병원"></a></h1>
+
+                    <nav>
+                         <ul class="gnb">
+                              <li><a href="reservation.html">예약</a>
+                                   <ul class="depth2">
+                                        <li><a href="#">예약안내</a></li>
+                                        <li><a href="#">예약확인</a></li>
+                                        <li><a href="#">건강검진예약</a></li>
+                                   </ul>
+                              </li>
+                              <li><a href="#">진료안내</a>
+                                   <ul class="depth2">
+                                        <li><a href="#">외래진료</a></li>
+                                        <li><a href="#">진료과</a></li>
+                                        <li><a href="#">의료진</a></li>
+                                   </ul>
+                              </li>
+                              <li><a href="medicaltv.html">건강정보</a>
+                                   <ul class="depth2">
+                                        <li><a href="#">건강정보TV</a></li>
+                                        <li><a href="#">자가진단 서비스</a></li>
+                                        <li><a href="#">의학정보 서비스</a></li>
+                                   </ul>
+                              </li>
+                              <li><a href="greetings.html">병원소개</a>
+                                   <ul class="depth2">
+                                        <li><a href="#">병원장 인사말</a></li>
+                                        <li><a href="#">미션/비전</a></li>
+                                        <li><a href="#">연혁</a></li>
+                                   </ul>
+                              </li>
+                         </ul><!-- gnb -->
+                    </nav>
+
+                    <nav>
+                         <div class="util">
+                              <button class="btn_search">검색</button>
+                              <button class="btn_menu ham">메뉴보기</button>
+                         </div><!-- util -->
+                    </nav>
+               </div>
+               <div class="depth_bg"></div>
+
+               <div class="search_bg">
+                    <form action="result.html">
+                         <fieldset>
+                              <legend>검색영역</legend>
+                              <input type="text" placeholder="Search"><input type="submit">
+                         </fieldset>
+                    </form>
+                    <button class="btn_close"></button>
+               </div><!-- search -->
+
+               <!-- mgnb -->
+               <div class="mgnb_wrap">
+                    <div class="mgnb_inner">
+                         <a href="#"><img src="../images/common/logo_w.png" alt="삼성서울병원"></a>
+                         <ul class="mgnb">
+                              <li><a href="#">예약</a>
+                                   <ul class="mdepth2">
+                                        <li><a href="#">예약안내</a></li>
+                                        <li><a href="#">예약확인</a></li>
+                                        <li><a href="#">건강검진예약</a></li>
+                                   </ul>
+                              </li>
+                              <li><a href="#">진료안내</a>
+                                   <ul class="mdepth2">
+                                        <li><a href="#">외래진료</a></li>
+                                        <li><a href="#">진료과</a></li>
+                                        <li><a href="#">의료진</a></li>
+                                   </ul>
+                              </li>
+                              <li><a href="#">건강정보</a>
+                                   <ul class="mdepth2">
+                                        <li><a href="#">건강정보TV</a></li>
+                                        <li><a href="#">자가진단 서비스</a></li>
+                                        <li><a href="#">의학정보 서비스</a></li>
+                                   </ul>
+                              </li>
+                              <li><a href="#">병원소개</a>
+                                   <ul class="mdepth2">
+                                        <li><a href="#">병원장 인사말</a></li>
+                                        <li><a href="#">미션/비전</a></li>
+                                        <li><a href="#">연혁</a></li>
+                                   </ul>
+                              </li>
+                         </ul>
+                    </div>
+                    <button class="mgnb_close">메뉴닫기</button>
+               </div><!-- mgnb_wrap -->
+          </header>
+
+          <div id="main">
+               <section class="hours">
+                    <div class="inner">
+                         <ol class="breadcrumbs">
+                              <li><a href="../index.html"><img src="../images/main/sub_home.png" alt="홈버튼"></a></li>
+                              <li><a href="#">진료안내</a></li>
+                              <li><a href="#">외래진료</a></li>
+                         </ol>
+
+                         <h1>외래진료</h1>
+                         <p>삼성서울병원 외래진료 안내</p>
+                         <div class="hours_wrap">
+                              <div class="hours_img">
+                                   <img src="../images/main/sub2_pic.png" alt="">
+                              </div>
+                              <div class="hours_txt">
+                                   <h2>진료 접수시간</h2>
+                                   <p>
+                                        <span>평일</span> : 오전 8시 30분 ~ 오후 5시 30분<br>
+                                        <span>토요일</span> : 오전 8시 30분 ~ 오후 12시 30분<br>
+                                        <span>점심시간</span> : 오후 12시 30분 ~  오후 1시 30분
+                                   </p>
+                                   <a href="#">예약안내</a>
+                              </div><!-- hours_txt -->
+                         </div><!-- hours_wrap -->
+                         <ul>
+                              <li>
+                                   외래 진료 접수시간은 환자 수, 진료과 사정에 따라 다소 조정될 수 있으며, 응급환자는 응급실에서 휴일 없이 24시간 365일 접수, 진료가 가능합니다.
+                              </li>
+                              <li>
+                                   응급환자의 경우 진료의뢰서 없이도 진료가 가능합니다.
+                              </li>
+                              <li>
+                                   저희 병원을 처음 방문하시는 환자분께서는 건강보험증을 지참하시고 내원하시면 진료(보험혜택)를 받으실 수 있습니다.
+                              </li>
+                              <li>
+                                   주간병동을 운영하여 입원 대기시간 감소와 수술 및 검사에 대한 빠른 전처치가 가능합니다.
+                              </li>
+                         </ul>
+                    </div>
+               </section><!-- hours -->
+
+               <section class="proce">
+                    <div class="inner">
+                         <h2>외래 진료절차</h2>
+                         <ul>
+                              <li>
+                                   <h3>STEP 1</h3>
+                                   <p>예약 & 접수</p>
+                              </li>
+                              <li>
+                                   <h3>STEP 2</h3>
+                                   <p>진료</p>
+                              </li>
+                              <li>
+                                   <h3>STEP 3</h3>
+                                   <p>수납</p>
+                              </li>
+                              <li>
+                                   <h3>STEP 4</h3>
+                                   <p>차방</p>
+                              </li>
+                              <li>
+                                   <h3>STEP 5</h3>
+                                   <p>예약 후 귀가</p>
+                              </li>
+                              
+                         </ul>
+                    </div>
+               </section>
+               <section class="apply">
+                    <div class="inner">
+                         <h2>외래 진료 접수방법</h2>
+                         <ul>
+                              <li>
+                                   병원에 처음 내원하시는 분은 건강보험증, 주민등록증, 요양급여의뢰서(의료급여 환자에 한함)를 지참하셔야 합니다.
+                              </li>
+                              <li>
+                                   예약 없이 내원하시는 경우 대기시간이 다소 길어질 수 있습니다. 이점 양해 부탁 드립니다.
+                              </li>
+                              <li>
+                                   진료예약/당일접수 하신 분은 해당 진료과에서 성함을 말씀 하신 후 대기실에 앉아 계시면 진료를 받으실 수 있습니다.
+                              </li>
+                         </ul>
+                    </div>
+               </section>
+          </div>
+
+          <footer id="footer">
+               <div class="foot_nav">
+                    <div class="inner">
+                         <a href="#"><img src="../images/common/logo_w.png" alt="삼성서울병원"></a>
+                         <nav>
+                              <ul class="fnb">
+                              <li><a href="#">삼성서울병원</a></li> 
+                              <li><a href="#">이용약관</a></li> 
+                              <li><a href="#">개인정보처리방침</a></li> 
+                              <li><a href="#">환자의권리와의무</a></li> 
+                              <li><a href="#">보안신고</a></li> 
+                              <li><a href="#">고객의 소리</a></li> 
+                              </ul>
+                         </nav>
+                         <form class="family" action="">
+                              <fieldset>
+                                   <legend>패밀리사이트로 이동</legend>
+                                   <select name="" id="">
+                                        <option value="">Family Site</option>
+                                             <option value="">삼성의료원</option>
+                                             <option value="">강북삼성병원</option>
+                                             <option value="">삼성창원병원</option>
+                                             <option value="">삼성의료원 열린구매</option>
+                                             <option value="">성균관대학교 의과대학</option>
+                                   </select>
+                              </fieldset>
+                         </form>
+                    </div><!-- inner -->
+               </div><!-- foot_nav -->
+               <div class="foot_line"></div>
+               <div class="foot_add">
+                    <div class="inner">
+                         <address>
+                              서울특별시 강남구 일원로 81 (06351) 삼성서울병원  /  대표전화 : 1599-3114  /  사업자등록번호 : 213-82-05096 박승우
+                         </address>
+                         <p class="copy">
+                              COPYRIGHT ⓒ 2022 INJE UNIVERSITY BUSAN PAIK HOSPITAL. 						ALL RIGHTS RESERVED.
+                         </p>
+                    </div>
+               </div>
+          </footer>
+     </div><!-- wrap -->
+</body>
+</html>

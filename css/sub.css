@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+:root {
+    --main-color: #BFE4FF;
+    --main-font: 'Noto Sans KR', sans-serif;
+    --sub-font: 'netmarble', sans-serif;
+}
+
+body {
+    font-family: var(--main-font);
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #333;
+}
+
+#wrap {
+    overflow-x: hidden;
+}
+
+.inner {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* header */
+#header {
+    width: 100%;
+    z-index: 3;
+}
+
+#header .inner { 
+    display: flex;
+    justify-content:space-between;
+    padding: 25px 0;
+}
+
+#header .inner .gnb {
+    display: flex;
+}
+
+#header .inner .gnb > li > a {
+    display: block;
+    padding: 10px 25px;
+    font-size: 2rem;
+    transition: all 0.4s;
+}
+
+#header .inner .gnb > li > a:hover {
+    transform: translateY(-5px);
+}
+
+/* 공동코드 */
+#main .inner {
+    margin-top: 50px;
+}
+
+#main .inner .info_box {
+    width: 300px;
+    position: fixed;
+    left: 12vw;
+    top: 15.25vh;
+}
+
+#main .inner .info_box img {
+    margin-bottom: 15px;
+}
+
+#main .inner .info_box dl {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#main .inner .info_box dl dt {
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+#main .inner .info_box dl dd {
+    margin-bottom: 10px;
+}
+
+#main .inner .info_box p {
+    margin: 10px 0 15px;
+}
+
+#main .inner .info_box a {
+    padding: 7px 20px;
+    border: 1px solid #333;
+    transition: all 0.4s;
+    font-size: 1.4rem;
+}
+
+#main .inner .info_box a:hover {
+    background: #111;
+    color: #fff;
+}
+
+#main .inner .design_box {
+    width: 1000px;
+    margin-left: auto;
+}
+
+#main .inner .design_box img {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+
+#main .inner .design_box video {
+    width: 100%;
+}
+/* muji */
+#main .inner .info_box .muji_title dt span {
+    font-size: 1.6rem;
+    color: #78181C;
+}
+
+/* ridi */
+#main .inner .info_box .ridi_title dt {
+    color: #1E9EFF;
+}
+
+#main .inner .info_box .ridi_title dt span {
+    color: #333;
+}
+
+/* always */
+
+#main .inner .info_box .always_title dt {
+    color: #3B383A;
+}
+
+#main .inner .info_box .always_title span {
+    color: #F4B4B5;
+}
+
+/* mon_shop */
+#main .inner .design_box img.mshop_img {
+    border: none; 
+}
+
+/* naver */
+#main .inner .info_box .naver1_title dt span {
+    color: #5bd4d5;
+}
+#main .inner .info_box .naver2_title dt span {
+    color: #dad4c6;
+}
+#main .inner .info_box .naver3_title dt span {
+    color: #9a5dce;
+}
+
+/* video */
+#main .inner .info_box .video1_title dt span {
+    color: #FF6A13;
+}
+#main .inner .info_box .video2_title dt span {
+    color: #dad4c6;
+    
+}
+#main .inner .info_box .video3_title dt span {
+    color: #9a5dce;
+}

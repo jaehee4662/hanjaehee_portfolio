@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "Swagger";
+    src: url('../font/SDSwaggerTTF.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

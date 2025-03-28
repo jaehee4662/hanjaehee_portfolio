@@ -1,0 +1,7 @@
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+
+--main-font: "Noto Sans KR", sans-serif;
+--main-color: #0D47A1
+--sub-color: #05357F
+
+
